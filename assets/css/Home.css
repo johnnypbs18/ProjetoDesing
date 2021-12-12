@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+
+.img {
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+  cursor: context-menu;
+  text-shadow: 3px 1px 7px #50a3f0c5;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+nav ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+}
+nav .active a,
+nav a:hover {
+  background-color: #50a3f0c5;
+  color: rgb(255, 255, 255);
+}
+.menu2 {
+  width: 100%;
+  height: 40px;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.icones i:hover {
+  background-color: #c4c2c2;
+  border-radius: 10px;
+}
+.fa-whatsapp {
+  color: #0ea30e;
+}
+.fa-instagram {
+  color: #000000;
+}
+.fa-facebook {
+  color: #0000ff;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+
+.texto1 h1 {
+  display: flex;
+  justify-content: center;
+  color: #e02d35;
+  font-family: "Lobster", cursive;
+}
+
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #858585;
+}
+.area1--text {
+  font-size: 20px;
+}
+.area1--content {
+  padding: 80px;
+}
+.area1--quote {
+  margin-bottom: 30px;
+}
+
+.bar {
+  background-color: #1e2fc7;
+  width: 162px;
+  height: 22px;
+}
+.area1--img1 {
+  height: 350px;
+  background-image: url("../img/Banner/c6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.area1--img2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  background-image: url("../img/Banner/montagem3.png");
+  background-size: cover;
+  background-position: center;
+}
+.area1 h3 {
+  color: #00ff80;
+  font-size: 35px;
+  line-height: 45px;
+  margin: 20px 0;
+}
+/* Aria2 */
+
+.area2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #858585;
+}
+.area2--content {
+  padding: 80px;
+}
+
+.bar {
+  background-color: #1e2fc7;
+  width: 162px;
+  height: 22px;
+}
+.aria2--text {
+  font-size: 20px;
+}
+
+.area3--text {
+  font-size: 20px;
+}
+
+.footer-texto {
+  color: #fff;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  justify-content: space-between;
+  padding: 47px;
+  
+}
+
+.text1,
+.text2,
+.text3 {
+  margin-bottom: 20px;
+}
+.contato1,
+.contato2,
+.contato3 {
+  display: flex;
+}
+.texto--fim1,
+.texto--fim2,
+.texto--fim3 {
+  font-size: 18px;
+}
+.fa-phone-alt {
+  color: #f2f1c1;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 16px;
+}
+.td-cards{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1-card:hover {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card {
+box-shadow: 0px  0px 9px #002fff;
+margin-left: 20px;
+margin-bottom: 40px;
+border-radius: 2px;
+width: 279px;
+height: 404px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.title {
+  margin-left:15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  margin-top: 20px;
+  color:#0e0e0e;
+}
+/* RODA PÉ */
+footer {
+  background-color: #141414;
+  font-family: Arial;
+  height: auto;
+}
+/* LINHAS */
+.linhas{
+  text-shadow: 0px 0px 9px #00e7f7;
+}
+/* Botao de compra */
+.quero {
+  display: flex;
+  margin-left: 36px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #025db3;
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  border-radius: 8px;
+  color:#fff;
+  cursor:pointer;
+}
+hr {
+  margin-top: 12px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.preco1 {
+  margin-bottom: 7px;
+  color: #025db3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.preco2 {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#858585;
+}
+.cor-preco {
+  color:#025db3;
+  margin-left: 4px;
+}
+
+
