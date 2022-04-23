@@ -3,7 +3,14 @@
 }
 body {
     margin:0;
+    /* background-color: #fcfcfc; */
+    background: linear-gradient( #07042c, #250b48 );
+    
 }
+footer {
+    background: #07042c ;
+}
+
 section {
     margin:0;
     display: flex;
@@ -31,12 +38,17 @@ section {
 }
 .slider--width {
     height: 100%;
+    object-fit: cover;
     display:flex;
+    justify-content: center;
+    align-items: center;
     transition: all ease 0.3s;
 }
+
 .slider--item {
-    width: 100vw;
+    width: 99%;
     height: inherit;
+    object-fit: cover;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -47,6 +59,9 @@ section {
     font-size: 50px;
 
 }
+
+
+
 .slider--controls {
     position: absolute;
     z-index: 99;
@@ -71,3 +86,10 @@ section {
     font-size: 29px;
 }
 
+span {
+    color: rgb(126, 125, 125);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
